@@ -1,3 +1,5 @@
+// import {searching} from './search-module';
+
 const studentList = [
   "강지민",
   "곽윤호",
@@ -26,6 +28,7 @@ const studentList = [
   "허진",
 ];
 
+
 console.log(studentList[studentList.length-1]);
 //배열[마지막번째]
 //lenght 는 항상 마지막 인덱스보다 +1 많다.
@@ -38,13 +41,22 @@ for(let i =0; i< studentList.length; i++){
   }
 }
 
-function searching(array, name){
-  for(let i =0; i< studentList.length; i++){
-    if(studentList[i]==="name"){
-      console.log(i);
-    }else {
-      console.log(`해당 순서는 ${name}이 아닙니다.`)
+const example = {
+  order: 0,
+  name:"강지민"
+}
+//!생성자 함수로 만들면 어떤 규격(명세)에 의해 만들어졌는지 알 수 있다 instance
+function makeObject(order,name){
+    this.order=order;
+    this.name=name;
+    
+    function order(order){
+      if(typeof(order)==="number"){
+        return this._order;
+      }
     }
-  }
-} 
+}
 
+
+let a = new makeObject("0","강지민");
+console.log(a);
