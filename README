@@ -1,0 +1,10 @@
+app.js 
+-기본 객체 생성 
+app1.js
+-생성자 함수 사용 jSON.stringify  -> fs.writeFileSync
+itsme.js
+-일반적인 객체 생성과정과 생성자함수로 만드는 차이점 비교
+kdt.js
+-학생리스트로 순서 찾기
+jdt1.js
+-class로 객체 생성 , set 제한두기 
