@@ -1,0 +1,19 @@
+{
+  "name": "230329constructor-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiny43/230329Constructor-Function.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiny43/230329Constructor-Function/issues"
+  },
+  "homepage": "https://github.com/jiny43/230329Constructor-Function#readme"
+}
